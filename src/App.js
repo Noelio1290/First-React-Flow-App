@@ -1,12 +1,10 @@
-import logo from './logo.svg';
 import React, { useState, useCallback } from 'react';
 import { 
   ReactFlow,
   Background,
   Controls,
   applyNodeChanges,
-  applyEdgeChanges, 
-  MarkerType,
+  applyEdgeChanges,
 } from '@xyflow/react';
 import '@xyflow/react/dist/style.css';
 import './App.css';
